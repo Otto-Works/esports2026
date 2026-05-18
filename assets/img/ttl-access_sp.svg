@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183" height="54" viewBox="0 0 183 54">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1915" data-name="長方形 1915" width="183" height="54" transform="translate(0 26626)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0083ce"/>
+      <stop offset="1" stop-color="#002271"/>
+    </linearGradient>
+  </defs>
+  <g id="マスクグループ_6" data-name="マスクグループ 6" transform="translate(0 -26626)" clip-path="url(#clip-path)">
+    <g id="グループ_2595" data-name="グループ 2595" transform="translate(-25.961 8202.16)">
+      <path id="パス_6695" data-name="パス 6695" d="M2617.926-913.56v-54.182h209.086l-54.182,54.182Z" transform="translate(-2617.965 19391.582)" fill="url(#linear-gradient)"/>
+      <text id="ACCESS" transform="translate(45.961 18465.748)" fill="#fff" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">ACCESS</tspan></text>
+    </g>
+  </g>
+</svg>

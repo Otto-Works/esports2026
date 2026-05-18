@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="583" height="47" viewBox="0 0 583 47">
+  <g id="グループ_2950" data-name="グループ 2950" transform="translate(-215 -16296)">
+    <g id="長方形_1502" data-name="長方形 1502" transform="translate(215 16296)" fill="#fff" stroke="#001345" stroke-width="3">
+      <rect width="583" height="47" stroke="none"/>
+      <rect x="1.5" y="1.5" width="580" height="44" fill="none"/>
+    </g>
+    <g id="パス_6429" data-name="パス 6429" transform="translate(215 16296)" fill="#001345">
+      <path d="M 214.029541015625 45.5 L 1.5 45.5 L 1.5 1.5 L 256.4691467285156 1.5 L 214.029541015625 45.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 44 L 213.3922882080078 44 L 252.9383239746094 3 L 3 3 M 0 0 L 260 0 L 214.666748046875 47 L 0 47 L 0 0 Z" stroke="none" fill="#001345"/>
+    </g>
+    <text id="期間限定" transform="translate(229 16303)" fill="#fff" font-size="20" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="23">期間限定</tspan></text>
+  </g>
+</svg>

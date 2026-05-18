@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242.866" height="54.184" viewBox="0 0 242.866 54.184">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0083ce"/>
+      <stop offset="1" stop-color="#002271"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_2553" data-name="グループ 2553" transform="translate(0.178 -10277.34)">
+    <path id="パス_6691" data-name="パス 6691" d="M2511.965-913.558v-54.184h242.866l-54.184,54.184Z" transform="translate(-2512.143 11245.08)" fill="url(#linear-gradient)"/>
+    <text id="SEMINER" transform="translate(19.822 10320.248)" fill="#fff" font-size="23" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">SEMINER</tspan></text>
+  </g>
+</svg>

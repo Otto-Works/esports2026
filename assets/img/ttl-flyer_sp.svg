@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189" height="51" viewBox="0 0 189 51">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1913" data-name="長方形 1913" width="189" height="51" transform="translate(0 27655)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0083ce"/>
+      <stop offset="1" stop-color="#002271"/>
+    </linearGradient>
+  </defs>
+  <g id="マスクグループ_5" data-name="マスクグループ 5" transform="translate(0 -27655)" clip-path="url(#clip-path)">
+    <g id="グループ_2602" data-name="グループ 2602" transform="translate(-20.026 9239.976)">
+      <path id="パス_6695" data-name="パス 6695" d="M2617.926-913.56v-54.182h209.086l-54.182,54.182Z" transform="translate(-2617.965 19382.582)" fill="url(#linear-gradient)"/>
+      <text id="FLYER" transform="translate(40.026 18454.748)" fill="#fff" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">FLYER</tspan></text>
+    </g>
+  </g>
+</svg>

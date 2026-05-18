@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="762" height="115" viewBox="0 0 762 115">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1913" data-name="長方形 1913" width="762" height="115" transform="translate(2006 3889)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0083ce"/>
+      <stop offset="1" stop-color="#002271"/>
+    </linearGradient>
+  </defs>
+  <g id="マスクグループ_5" data-name="マスクグループ 5" transform="translate(-2006 -3889)" clip-path="url(#clip-path)">
+    <g id="グループ_2422" data-name="グループ 2422" transform="translate(2004 -6409)">
+      <path id="パス_6691" data-name="パス 6691" d="M2511.965-797.741v-170h761.987l-170,170Z" transform="translate(-2512.143 11266.08)" fill="url(#linear-gradient)"/>
+      <text id="SEMINER" transform="translate(150 10370.339)" fill="#fff" font-size="60" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">SEMINER</tspan></text>
+    </g>
+  </g>
+</svg>

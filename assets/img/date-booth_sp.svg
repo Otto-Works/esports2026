@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="44" viewBox="0 0 390 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1913" data-name="長方形 1913" width="390" height="44" transform="translate(0 14754)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_5" data-name="マスクグループ 5" transform="translate(0 -14754)" clip-path="url(#clip-path)">
+    <g id="グループ_2543" data-name="グループ 2543" transform="translate(-155.653 14754.371)">
+      <path id="パス_6448" data-name="パス 6448" d="M3178.381-2500.471l35.553-35.552h-82.4l-35.552,35.552h82.4" transform="translate(-3042.172 2542.403)" fill="#001345"/>
+      <path id="パス_6449" data-name="パス 6449" d="M3178.381-2500.471l35.553-35.552h-82.4l-35.552,35.552h82.4" transform="translate(-3095.978 2542.403)" fill="#001345"/>
+      <g id="グループ_1989" data-name="グループ 1989" transform="translate(150.483 8)">
+        <g id="グループ_1987" data-name="グループ 1987" transform="translate(0)">
+          <path id="パス_6385" data-name="パス 6385" d="M3174.625-2502.091l33.931-33.931h-78.648l-33.93,33.931h78.647" transform="translate(-3048.244 2536.023)" fill="#001345" stroke="#001345" stroke-width="3"/>
+          <path id="パス_6387" data-name="パス 6387" d="M3174.625-2502.091l33.931-33.931h-78.648l-33.93,33.931h78.647" transform="translate(-3095.978 2536.023)" fill="#fff" stroke="#001345" stroke-width="3"/>
+          <text id="_4F" data-name="4F" transform="translate(104.036 25.601)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">4F</tspan></text>
+          <text id="_8.1_土_" data-name="8.1(土)" transform="translate(31.341 24.884)" fill="#001345" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.05em">8.</tspan><tspan y="0" letter-spacing="0.01em">1</tspan><tspan y="0" font-size="9" font-family="NotoSansJP-Bold, Noto Sans JP">(土)</tspan></text>
+        </g>
+        <path id="パス_6385-2" data-name="パス 6385" d="M3197.221-2502.091l33.931-33.931h-48.4l-33.93,33.931h48.4" transform="translate(-3016.463 2536.023)" fill="#001345" stroke="#001345" stroke-width="3"/>
+        <path id="パス_6410" data-name="パス 6410" d="M3197.221-2502.091l33.931-33.931h-48.4l-33.93,33.931h48.4" transform="translate(-2824.137 2536.023)" fill="#001345" stroke="#001345" stroke-width="3"/>
+        <text id="_5F" data-name="5F" transform="translate(158.413 25.601)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">5F</tspan></text>
+        <text id="_5F-2" data-name="5F" transform="translate(350.739 25.601)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">5F</tspan></text>
+        <g id="グループ_1988" data-name="グループ 1988" transform="translate(193.29)">
+          <path id="パス_6388" data-name="パス 6388" d="M3174.625-2502.091l33.931-33.931h-78.648l-33.93,33.931h78.647" transform="translate(-3048.244 2536.023)" fill="#001345" stroke="#001345" stroke-width="3"/>
+          <path id="パス_6389" data-name="パス 6389" d="M3174.625-2502.091l33.931-33.931h-78.648l-33.93,33.931h78.647" transform="translate(-3095.978 2536.023)" fill="#fff" stroke="#001345" stroke-width="3"/>
+          <text id="_4F-2" data-name="4F" transform="translate(104.216 25.601)" fill="#fff" font-size="20" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">4F</tspan></text>
+          <text id="_8.2_日_" data-name="8.2(日)" transform="translate(31.521 24.884)" fill="#001345" font-size="21" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.05em">8</tspan><tspan y="0">.</tspan><tspan y="0" letter-spacing="0.05em">2</tspan><tspan y="0" font-size="8" font-family="NotoSansJP-Bold, Noto Sans JP">(日)</tspan></text>
+        </g>
+      </g>
+      <g id="グループ_2048" data-name="グループ 2048" transform="translate(51.317)">
+        <rect id="長方形_1480" data-name="長方形 1480" width="499.886" height="9.33" transform="translate(0 0)" fill="#001345"/>
+        <path id="パス_6384" data-name="パス 6384" d="M3117.6-2526.693l9.33-9.33h-21.625l-9.329,9.33H3117.6" transform="translate(-2611.569 2536.023)" fill="#001345"/>
+      </g>
+    </g>
+  </g>
+</svg>
