@@ -175,6 +175,11 @@ a:hover {
   gap: 16px;
   margin-left: 5vw;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__logo {
+    margin-left: 2vw;
+  }
+}
 @media screen and (max-width: 519px) {
   .header__logo {
     margin-left: 2.5vw;
@@ -194,6 +199,11 @@ a:hover {
   font-size: 2.2rem;
   font-weight: 700;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__logo div {
+    font-size: 1.8vw;
+  }
+}
 @media screen and (max-width: 519px) {
   .header__logo div {
     font-size: 5.2vw;
@@ -206,6 +216,14 @@ a:hover {
   border-bottom: 100px solid #ffffff;
   border-left: 100px solid transparent;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__nav {
+    line-height: 75px;
+    padding: 0px 2vw 0 0;
+    border-bottom: 75px solid #ffffff;
+    border-left: 60px solid transparent;
+  }
+}
 @media screen and (max-width: 519px) {
   .header__nav {
     display: none;
@@ -216,12 +234,23 @@ a:hover {
   align-items: center;
   gap: 24px;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__nav ul {
+    gap: 16px;
+  }
+}
 .header__nav ul li:last-child {
   line-height: 1em;
 }
 .header__nav ul li a {
+  display: block;
   font-size: 1.6rem;
   font-weight: 700;
+}
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__nav ul li a {
+    font-size: 1.3vw;
+  }
 }
 .header__nav ul li a:hover {
   opacity: 1;
@@ -230,6 +259,11 @@ a:hover {
 .header__nav ul li a img {
   width: 50px;
   height: auto;
+}
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .header__nav ul li a img {
+    width: 3.5vw;
+  }
 }
 .header__nav ul li .subMenu {
   display: none;
@@ -341,9 +375,6 @@ a:hover {
   border-bottom: none;
 }
 
-.mv {
-  margin-top: 100px;
-}
 @media screen and (max-width: 519px) {
   .mv {
     margin-top: 66px;
@@ -874,6 +905,10 @@ a:hover {
   padding: 20px 0;
   font-weight: 700;
   border-top: 1px solid;
+}
+.event__schedule .merchandise dd {
+  font-size: 1.8rem;
+  line-height: 1.4;
 }
 .event__schedule .merchandise dd strong {
   font-size: 2rem;
@@ -2019,14 +2054,18 @@ a:hover {
     gap: 16px;
   }
 }
-.flyer__wrap .flex img {
+.flyer__wrap .flex a {
   width: calc((100% - 60px) / 2);
   height: auto;
 }
 @media screen and (max-width: 519px) {
-  .flyer__wrap .flex img {
+  .flyer__wrap .flex a {
     width: calc((100% - 16px) / 2);
   }
+}
+.flyer__wrap .flex a img {
+  width: 100%;
+  height: auto;
 }
 
 .partner {

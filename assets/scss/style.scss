@@ -183,6 +183,10 @@ a {
     gap: 16px;
     margin-left: 5vw;
 
+    @include media-miniPc {
+      margin-left: 2vw;
+    }
+
     @include media-sp {
       margin-left: 2.5vw;
       gap: 8px;
@@ -201,6 +205,10 @@ a {
       font-size: 2.2rem;
       font-weight: 700;
 
+      @include media-miniPc {
+        font-size: 1.8vw;
+      }
+
       @include media-sp {
         font-size: 5.2vw;
       }
@@ -214,6 +222,13 @@ a {
     border-bottom: 100px solid #ffffff;
     border-left: 100px solid transparent;
 
+    @include media-miniPc {
+      line-height: 75px;
+      padding: 0px 2vw 0 0;
+      border-bottom: 75px solid #ffffff;
+      border-left: 60px solid transparent;
+    }
+
     @include media-sp {
       display: none;
     }
@@ -222,6 +237,10 @@ a {
       display: flex;
       align-items: center;
       gap: 24px;
+
+      @include media-miniPc {
+        gap: 16px;
+      }
   
       li {
 
@@ -230,8 +249,13 @@ a {
         }
 
         a {
+          display: block;
           font-size: 1.6rem;
           font-weight: 700;
+
+          @include media-miniPc {
+            font-size: 1.3vw;
+          }
 
           &:hover {
             opacity: 1;
@@ -242,6 +266,10 @@ a {
         a img {
           width: 50px;
           height: auto;
+
+          @include media-miniPc {
+            width: 3.5vw;
+          }
         }
 
         .subMenu {
@@ -377,7 +405,6 @@ a {
 }
 
 .mv {
-  margin-top: 100px;
 
   @include media-sp {
     margin-top: 66px;
@@ -978,8 +1005,12 @@ a {
       font-weight: 700;
       border-top: 1px solid;
 
-      dd strong {
-        font-size: 2rem;
+      dd {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        strong {
+          font-size: 2rem;
+        }
       }
     }
     
@@ -2205,12 +2236,17 @@ a {
         gap: 16px;
       }
 
-      img {
+      a {
         width: calc((100% - 60px) / 2);
         height: auto;
         
         @include media-sp {
           width: calc((100% - 16px) / 2);
+        }
+
+        img {
+          width: 100%;
+          height: auto;
         }
       }
     }
