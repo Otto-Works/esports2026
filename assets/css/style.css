@@ -160,6 +160,11 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.7490196078);
   z-index: 100;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .header {
+    padding: 4px 0;
+  }
+}
 @media screen and (max-width: 519px) {
   .header {
     padding: 8px 0;
@@ -190,6 +195,11 @@ a:hover {
   width: 75px;
   height: auto;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .header__logo img {
+    width: 6vw;
+  }
+}
 @media screen and (max-width: 519px) {
   .header__logo img {
     width: 50px;
@@ -202,6 +212,11 @@ a:hover {
 @media screen and (max-width: 1370px) and (min-width: 960px) {
   .header__logo div {
     font-size: 1.8vw;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .header__logo div {
+    font-size: 2.5vw;
   }
 }
 @media screen and (max-width: 519px) {
@@ -222,6 +237,11 @@ a:hover {
     padding: 0px 2vw 0 0;
     border-bottom: 75px solid #ffffff;
     border-left: 60px solid transparent;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .header__nav {
+    display: none;
   }
 }
 @media screen and (max-width: 519px) {
@@ -276,6 +296,12 @@ a:hover {
   width: 40px;
   height: 25px;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .header .hum {
+    display: block;
+    top: 13px;
+  }
+}
 @media screen and (max-width: 519px) {
   .header .hum {
     display: block;
@@ -301,18 +327,14 @@ a:hover {
 }
 .header .spMenu {
   display: none;
-}
-@media screen and (max-width: 519px) {
-  .header .spMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    padding: 40px 24px;
-    color: #fff;
-    background-color: #001345;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px 24px;
+  color: #fff;
+  background-color: #001345;
 }
 .header .spMenu__ttl {
   margin-bottom: 60px;
@@ -424,6 +446,17 @@ a:hover {
   font-style: italic;
   font-size: 16rem;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .whatsTxt {
+    bottom: -2.6vw;
+    font-size: 11vw;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .whatsTxt {
+    display: none;
+  }
+}
 @media screen and (max-width: 519px) {
   .whatsTxt {
     display: none;
@@ -450,6 +483,11 @@ a:hover {
   padding: 110px 100px;
   background-color: #fff;
   z-index: 2;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .newsEvent .news__box {
+    padding: 40px 24px;
+  }
 }
 @media screen and (max-width: 519px) {
   .newsEvent .news__box {
@@ -549,6 +587,11 @@ a:hover {
 .event__box.event01 {
   grid-template: "img txt schedule" max-content "cast cast cast" max-content/1fr 1fr 1.3fr;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event01 {
+    grid-template: "img" max-content "txt" max-content "schedule" max-content "cast" max-content/1fr;
+  }
+}
 @media screen and (max-width: 519px) {
   .event__box.event01 {
     grid-template: "img" max-content "txt" max-content "schedule" max-content "cast" max-content/1fr;
@@ -556,7 +599,7 @@ a:hover {
 }
 @media screen and (max-width: 519px) {
   .event__box.event01 .event__txt h3 {
-    transform: translateY(-520px);
+    transform: translateY(-560px);
   }
   .event__box.event01 .event__img {
     transform: translateY(110px);
@@ -565,6 +608,12 @@ a:hover {
 .event__box.event02 {
   margin-top: 60px;
   grid-template: "txt img" max-content "schedule cast" max-content/1fr 2fr;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event02 {
+    margin-top: 0;
+    grid-template: "img" max-content "txt" max-content "schedule" max-content "cast" max-content/1fr;
+  }
 }
 @media screen and (max-width: 519px) {
   .event__box.event02 {
@@ -575,6 +624,11 @@ a:hover {
 .event__box.event02 .event__cast__content {
   width: calc((100% - 24px) / 2);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event02 .event__cast__content {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .event__box.event02 .event__cast__content {
     width: 100%;
@@ -582,7 +636,7 @@ a:hover {
 }
 @media screen and (max-width: 519px) {
   .event__box.event02 .event__txt h3 {
-    transform: translateY(-270px);
+    transform: translateY(-284px);
   }
   .event__box.event02 .event__img {
     transform: translateY(110px);
@@ -612,6 +666,11 @@ a:hover {
   border-radius: 20px;
   box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.1764705882);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event03 .event03__box {
+    gap: 24px;
+  }
+}
 @media screen and (max-width: 519px) {
   .event__box.event03 .event03__box {
     width: 100vw;
@@ -637,6 +696,12 @@ a:hover {
   padding-top: 80px;
   width: 50%;
   z-index: 2;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event03 .event03__txt {
+    width: 100%;
+    padding-top: 40px;
+  }
 }
 @media screen and (max-width: 519px) {
   .event__box.event03 .event03__txt {
@@ -690,6 +755,11 @@ a:hover {
   position: relative;
   z-index: 2;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event03 .event__schedule {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .event__box.event03 .event__schedule {
     width: 100%;
@@ -698,6 +768,11 @@ a:hover {
 .event__box.event04 {
   position: relative;
   grid-template: "img txt" max-content "cast schedule" max-content "team team" max-content/2fr 1fr;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__box.event04 {
+    grid-template: "img" max-content "txt" max-content "schedule" max-content "cast" max-content "team" max-content/1fr;
+  }
 }
 @media screen and (max-width: 519px) {
   .event__box.event04 {
@@ -933,6 +1008,11 @@ a:hover {
   flex-wrap: wrap;
   width: calc((100% - 48px) / 3);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__cast__content {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .event__cast__content {
     width: 100%;
@@ -1046,6 +1126,11 @@ a:hover {
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .event__team__member h3 {
+    font-size: 1.9vw;
+  }
+}
 
 .challenge {
   position: relative;
@@ -1080,6 +1165,12 @@ a:hover {
   justify-content: space-between;
   row-gap: 60px;
   z-index: 2;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .challenge__inner {
+    grid-template: "txt" max-content "schedule" max-content "game" max-content/100%;
+    row-gap: 16px;
+  }
 }
 @media screen and (max-width: 519px) {
   .challenge__inner {
@@ -1133,6 +1224,11 @@ a:hover {
 .challenge__name {
   font-size: 2.2rem;
   font-weight: 700;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .challenge__name {
+    font-size: 2vw;
+  }
 }
 @media screen and (max-width: 519px) {
   .challenge__name {
@@ -1196,6 +1292,14 @@ a:hover {
   height: auto;
   transform: translateY(-50%);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .booth__img {
+    top: 40%;
+    left: 5vw;
+    right: auto;
+    width: 45vw;
+  }
+}
 @media screen and (max-width: 519px) {
   .booth__img {
     position: relative;
@@ -1210,6 +1314,15 @@ a:hover {
   bottom: 80px;
   width: 100%;
   max-width: 450px;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .booth .event__txt {
+    position: absolute;
+    right: 24px;
+    bottom: 70px;
+    width: 100%;
+    max-width: 450px;
+  }
 }
 @media screen and (max-width: 519px) {
   .booth .event__txt {
@@ -1381,6 +1494,12 @@ a:hover {
   border: 3px dotted #707070;
   width: calc((100% - 48px) / 3);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar01 .seminar__schedule {
+    margin-top: 24px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .seminar01 .seminar__schedule {
     margin-top: 24px;
@@ -1441,8 +1560,18 @@ a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar02__wrap {
+    gap: 24px;
+  }
+}
 .seminar02 .left {
   width: 55%;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar02 .left {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar02 .left {
@@ -1535,6 +1664,12 @@ a:hover {
   align-items: center;
   gap: 200px;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar03__content {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
 @media screen and (max-width: 519px) {
   .seminar03__content {
     flex-wrap: wrap;
@@ -1546,6 +1681,11 @@ a:hover {
   max-width: 500px;
   height: auto;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar03__content img {
+    order: 1;
+  }
+}
 @media screen and (max-width: 519px) {
   .seminar03__content img {
     order: 2;
@@ -1554,6 +1694,11 @@ a:hover {
 .seminar03__info {
   width: 90%;
   max-width: 500px;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar03__info {
+    order: 2;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar03__info {
@@ -1631,6 +1776,13 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar04__content, .seminar05__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}
 @media screen and (max-width: 519px) {
   .seminar04__content, .seminar05__content {
     flex-wrap: wrap;
@@ -1640,6 +1792,12 @@ a:hover {
 }
 .seminar04__txt, .seminar05__txt {
   width: 40%;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar04__txt, .seminar05__txt {
+    width: 100%;
+    order: 2;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar04__txt, .seminar05__txt {
@@ -1664,6 +1822,11 @@ a:hover {
   max-width: 500px;
   height: auto;
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar04__img {
+    order: 1;
+  }
+}
 
 .seminar05 {
   margin-top: 80px;
@@ -1686,6 +1849,13 @@ a:hover {
   width: 50%;
   height: auto;
   padding-left: 40px;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar05__img {
+    width: 100%;
+    order: 2;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar05__img {
@@ -1710,6 +1880,12 @@ a:hover {
   bottom: -130px;
   display: flex;
   align-items: flex-end;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar05__img .guest {
+    position: relative;
+    bottom: 0;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar05__img .guest {
@@ -1791,6 +1967,11 @@ a:hover {
 .seminar06__txt {
   width: calc(50% - 40px);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar06__txt {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .seminar06__txt {
     width: 100%;
@@ -1839,6 +2020,11 @@ a:hover {
 }
 .seminar06__img {
   width: 50%;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .seminar06__img {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 519px) {
   .seminar06__img {
@@ -1967,6 +2153,11 @@ a:hover {
 .access__content {
   width: calc((100% - 80px) / 2);
 }
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .access__content {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 519px) {
   .access__content {
     width: 100%;
@@ -2006,6 +2197,12 @@ a:hover {
   margin-top: 100px;
   width: 100vw;
   height: 600px;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .access__map {
+    margin-top: 40px;
+    height: 400px;
+  }
 }
 @media screen and (max-width: 519px) {
   .access__map {
@@ -2114,6 +2311,17 @@ a:hover {
   gap: 20px;
   padding: 80px 0;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .footer__inner {
+    grid-template-columns: max-content max-content;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    padding: 40px 0;
+  }
+}
 @media screen and (max-width: 519px) {
   .footer__inner {
     grid-template-columns: 1fr;
@@ -2126,14 +2334,34 @@ a:hover {
   width: 300px;
   height: auto;
 }
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .footer__inner img {
+    grid-row: 1/2;
+  }
+}
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .footer__inner > p {
+    grid-row: 2/2;
+  }
+}
 .footer__inner p {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+@media screen and (min-width: 520px) and (max-width: 899px) {
+  .footer__inner p {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 519px) {
   .footer__inner p {
     font-size: 3.6vw;
     text-align: center;
+  }
+}
+@media screen and (max-width: 1370px) and (min-width: 960px) {
+  .footer__contact {
+    grid-row: 2/2;
   }
 }
 .footer__contact p {
@@ -2167,6 +2395,9 @@ a:hover {
   .footer__contact .tel span {
     order: 2;
   }
+}
+.footer__contact .tel div {
+  white-space: nowrap;
 }
 @media screen and (max-width: 519px) {
   .footer__contact .tel div {

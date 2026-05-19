@@ -168,6 +168,10 @@ a {
   background-color: #ffffffbf;
   z-index: 100;
 
+  @include media-tab {
+    padding: 4px 0;
+  }
+
   @include media-sp {
     padding: 8px 0;
   }
@@ -196,6 +200,10 @@ a {
       width: 75px;
       height: auto;
 
+      @include media-tab {
+        width: 6vw;
+      }
+
       @include media-sp {
         width: 50px;
       }
@@ -207,6 +215,9 @@ a {
 
       @include media-miniPc {
         font-size: 1.8vw;
+      }
+      @include media-tab {
+        font-size: 2.5vw;
       }
 
       @include media-sp {
@@ -227,6 +238,10 @@ a {
       padding: 0px 2vw 0 0;
       border-bottom: 75px solid #ffffff;
       border-left: 60px solid transparent;
+    }
+
+    @include media-tab {
+      display: none;
     }
 
     @include media-sp {
@@ -287,6 +302,11 @@ a {
     width: 40px;
     height: 25px;
 
+    @include media-tab {
+      display: block;
+      top: 13px;
+    }
+
     @include media-sp {
       display: block;
     }
@@ -316,17 +336,14 @@ a {
 
   .spMenu {
     display: none;
-
-    @include media-sp {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      padding: 40px 24px;
-      color: #fff;
-      background-color: #001345;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px 24px;
+    color: #fff;
+    background-color: #001345;
 
     &__ttl {
       margin-bottom: 60px;
@@ -458,6 +475,15 @@ a {
     font-style: italic;
     font-size: 16rem;
 
+    @include media-miniPc {
+      bottom: -2.6vw;
+      font-size: 11vw;
+    }
+
+    @include media-tab {
+      display: none;
+    }
+
     @include media-sp {
       display: none;
     }
@@ -486,6 +512,10 @@ a {
       padding: 110px 100px;
       background-color: #fff;
       z-index: 2;
+
+      @include media-tab {
+        padding: 40px 24px;
+      }
 
       @include media-sp {
         padding: 40px 24px;
@@ -591,6 +621,15 @@ a {
       "cast cast cast" max-content
       / 1fr 1fr 1.3fr;
 
+      @include media-tab {
+        grid-template:
+        "img" max-content
+        "txt" max-content
+        "schedule" max-content
+        "cast" max-content
+        / 1fr;
+      }
+
       @include media-sp {
         grid-template:
         "img" max-content
@@ -603,7 +642,7 @@ a {
       @include media-sp {
 
         .event__txt h3 {
-            transform: translateY(-520px);
+            transform: translateY(-560px);
           }
           
         .event__img {
@@ -619,6 +658,16 @@ a {
       "schedule cast" max-content 
       / 1fr 2fr;
 
+      @include media-tab {
+        margin-top: 0;
+        grid-template: 
+        "img" max-content
+        "txt" max-content 
+        "schedule" max-content 
+        "cast" max-content 
+        / 1fr;
+      }
+
       @include media-sp {
         margin-top: 0;
         grid-template: 
@@ -632,6 +681,10 @@ a {
       .event__cast__content {
         width: calc((100% - 24px) / 2);
 
+        @include media-tab {
+          width: 100%;
+        }
+
         @include media-sp {
           width: 100%;
         }
@@ -640,7 +693,7 @@ a {
       @include media-sp {
 
         .event__txt h3 {
-          transform: translateY(-270px);
+          transform: translateY(-284px);
         }
 
         .event__img {
@@ -673,6 +726,10 @@ a {
         border-radius: 20px;
         box-shadow: inset 0 6px 6px #0000002d;
         
+        @include media-tab {
+          gap: 24px;
+        }
+        
         @include media-sp {
           width: 100vw;
           padding: 40px 5vw;
@@ -699,6 +756,11 @@ a {
         padding-top: 80px;
         width: 50%;
         z-index: 2;
+
+        @include media-tab {
+          width: 100%;
+          padding-top: 40px;
+        }
 
         @include media-sp {
           width: 100%;
@@ -753,6 +815,10 @@ a {
         position: relative;
         z-index: 2;
 
+        @include media-tab {
+          width: 100%;
+        }
+
         @include media-sp {
           width: 100%;
         }
@@ -766,6 +832,16 @@ a {
       "cast schedule" max-content
       "team team" max-content
       / 2fr 1fr;
+      
+      @include media-tab {
+        grid-template:
+        "img" max-content
+        "txt" max-content
+        "schedule" max-content
+        "cast" max-content
+        "team" max-content
+        / 1fr;
+      }
       
       @include media-sp {
         grid-template:
@@ -1038,6 +1114,10 @@ a {
       flex-wrap: wrap;
       width: calc((100% - 48px) / 3);
 
+      @include media-tab {
+        width: 100%;
+      }
+
       @include media-sp {
         width: 100%;
       }
@@ -1157,6 +1237,10 @@ a {
         font-size: 2rem;
         font-weight: 700;
         text-align: center;
+
+        @include media-tab {
+          font-size: 1.9vw;
+        }
       }
     }
   }
@@ -1199,6 +1283,15 @@ a {
     row-gap: 60px;
     z-index: 2;
     
+    @include media-tab {
+      grid-template: 
+      "txt" max-content
+      "schedule" max-content
+      "game" max-content
+      / 100%;
+      row-gap: 16px;
+    }
+
     @include media-sp {
       grid-template: 
       "txt" max-content
@@ -1265,6 +1358,10 @@ a {
     font-size: 2.2rem;
     font-weight: 700;
 
+    @include media-tab {
+      font-size: 2vw;
+    }
+
     @include media-sp {
       margin-top: 8px;
       font-size: 4.8vw;
@@ -1327,6 +1424,13 @@ a {
     height: auto;
     transform: translateY(-50%);
 
+    @include media-tab {
+      top: 40%;
+      left: 5vw;
+      right: auto;
+      width: 45vw;
+    }
+
     @include media-sp {
       position: relative;
       top: auto;
@@ -1341,6 +1445,14 @@ a {
     bottom: 80px;
     width: 100%;
     max-width: 450px;
+
+    @include media-tab {
+      position: absolute;
+      right: 24px;
+      bottom: 70px;
+      width: 100%;
+      max-width: 450px;
+    }
 
     @include media-sp {
       margin-top: 70px;
@@ -1519,6 +1631,11 @@ a {
     box-shadow: none;
     border: 3px dotted #707070;
     width: calc((100% - 48px) / 3);
+    
+    @include media-tab {
+      margin-top: 24px;
+      width: 100%;
+    }
 
     @include media-sp {
       margin-top: 24px;
@@ -1581,10 +1698,18 @@ a {
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @include media-tab {
+      gap: 24px;
+    }
   }
 
   .left {
     width: 55%;
+
+    @include media-tab {
+      width: 100%;
+    }
 
     @include media-sp {
       width: 100%;
@@ -1699,6 +1824,11 @@ a {
     align-items: center;
     gap: 200px;
 
+    @include media-tab {
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
     @include media-sp {
       flex-wrap: wrap;
       gap: 24px;
@@ -1709,6 +1839,10 @@ a {
       max-width: 500px;
       height: auto;
 
+      @include media-tab {
+        order: 1;
+      }
+
       @include media-sp {
         order: 2;
       }
@@ -1718,6 +1852,10 @@ a {
   &__info {
     width: 90%;
     max-width: 500px;
+
+    @include media-tab {
+      order: 2;
+    }
 
     @include media-sp {
       order: 1;
@@ -1799,6 +1937,12 @@ a {
     align-items: center;
     justify-content: space-between;
 
+    @include media-tab {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
     @include media-sp {
       flex-wrap: wrap;
       justify-content: center;
@@ -1808,6 +1952,11 @@ a {
 
   &__txt {
     width: 40%;
+
+    @include media-tab {
+      width: 100%;
+      order: 2;
+    }
 
     @include media-sp {
       width: 100%;
@@ -1832,6 +1981,10 @@ a {
     width: 80%;
     max-width: 500px;
     height: auto;
+
+    @include media-tab {
+      order: 1;
+    }
   }
 }
 
@@ -1863,6 +2016,12 @@ a {
     height: auto;
     padding-left: 40px;
 
+    @include media-tab {
+      width: 100%;
+      order: 2;
+      padding-left: 0;
+    }
+
     @include media-sp {
       width: 100%;
       order: 2;
@@ -1885,6 +2044,11 @@ a {
       bottom: -130px;
       display: flex;
       align-items: flex-end;
+
+      @include media-tab {
+        position: relative;
+        bottom: 0;
+      }
 
       @include media-sp {
         position: relative;
@@ -1972,6 +2136,10 @@ a {
   &__txt {
     width: calc(50% - 40px);
 
+    @include media-tab {
+      width: 100%;
+    }
+
     @include media-sp {
       width: 100%;
     }
@@ -2022,6 +2190,10 @@ a {
 
   &__img {
     width: 50%;
+
+    @include media-tab {
+      width: 100%;
+    }
 
     @include media-sp {
       width: 100%;
@@ -2150,6 +2322,10 @@ a {
   &__content {
     width: calc((100% - 80px) / 2);
 
+    @include media-tab {
+      width: 100%;
+    }
+
     @include media-sp {
       width: 100%;
     }
@@ -2189,6 +2365,11 @@ a {
     margin-top: 100px;
     width: 100vw;
     height: 600px;
+
+    @include media-tab {
+      margin-top: 40px;
+      height: 400px;
+    }
 
     @include media-sp {
       margin-top: 40px;
@@ -2299,6 +2480,15 @@ a {
     grid-template-columns: auto max-content 600px;
     gap: 20px;
     padding: 80px 0;
+    
+    @include media-miniPc {
+      grid-template-columns: max-content max-content;
+    }
+
+    @include media-tab {
+      grid-template-columns: 1fr;
+      padding: 40px 0; 
+    }
 
     @include media-sp {
       grid-template-columns: 1fr;
@@ -2310,11 +2500,26 @@ a {
       margin: 0 auto;
       width: 300px;
       height: auto;
+
+      @include media-miniPc {
+        grid-row: 1 / 2;
+      }
+    }
+
+    & > p {
+
+      @include media-miniPc {
+        grid-row: 2 / 2;
+      }
     }
 
     p {
       font-size: 1.6rem;
       line-height: 1.6;
+
+      @include media-tab {
+        text-align: center;
+      }
 
       @include media-sp {
         font-size: 3.6vw;
@@ -2324,6 +2529,10 @@ a {
   }
 
   &__contact {
+
+    @include media-miniPc {
+      grid-row: 2 / 2;
+    }
 
     p {
       margin-bottom: 40px;
@@ -2358,6 +2567,7 @@ a {
       }
 
       div {
+          white-space: nowrap;
 
         @include media-sp {
           order: 1;
