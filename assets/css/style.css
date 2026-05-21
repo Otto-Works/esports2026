@@ -1646,6 +1646,11 @@ a:hover {
   height: 10px;
   border-top: 2px dotted;
 }
+.seminar02 .btn {
+  margin-top: 24px;
+  width: 100%;
+  max-width: 500px;
+}
 
 .seminar03 {
   margin-top: 80px;
