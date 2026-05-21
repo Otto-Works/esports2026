@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="456.937" height="62.279" viewBox="0 0 456.937 62.279">
-  <g id="グループ_2940" data-name="グループ 2940" transform="translate(0 -11760.844)">
-    <g id="グループ_1996" data-name="グループ 1996" transform="translate(0 260.039)">
-      <path id="パス_6413" data-name="パス 6413" d="M3239.94-2473.913l62.112-62.11H3158.087l-62.109,62.11H3239.94" transform="translate(-3089.63 14036.913)" fill="#001345"/>
-      <rect id="長方形_1914" data-name="長方形 1914" width="69" height="61" transform="translate(0 11501.961)" fill="#001345"/>
-    </g>
-    <g id="グループ_1995" data-name="グループ 1995" transform="translate(173.246 11762.344)">
-      <path id="パス_6385" data-name="パス 6385" d="M3233.376-2476.744l59.279-59.279h-137.4l-59.277,59.279h137.4" transform="translate(-3012.586 2536.022)" fill="#001345" stroke="#001345" stroke-width="3"/>
-      <path id="パス_6387" data-name="パス 6387" d="M3233.376-2476.744l59.279-59.279h-137.4l-59.277,59.279h137.4" transform="translate(-3095.978 2536.022)" fill="#fff" stroke="#001345" stroke-width="3"/>
-      <text id="_3F" data-name="3F" transform="translate(181.754 45.279)" fill="#fff" font-size="35" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">3F</tspan></text>
-      <text id="_8.1_土_" data-name="8.1(土)" transform="translate(54.754 45.279)" fill="#001345" font-size="39" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.05em">8.</tspan><tspan y="0" letter-spacing="0.01em">1</tspan><tspan y="0" font-size="17" font-family="NotoSansJP-Bold, Noto Sans JP">(土)</tspan></text>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="456.937" height="62.279"><g data-name="グループ 2940"><g fill="#001345" data-name="グループ 1996"><path d="M150.31 62.195 212.422.085H68.457L6.348 62.195z" data-name="パス 6413"/><path d="M0 1.156h69v61H0z" data-name="長方形 1914"/></g><g data-name="グループ 1995"><path fill="#001345" stroke="#001345" stroke-width="3" d="m394.036 60.778 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6385"/><path fill="#fff" stroke="#001345" stroke-width="3" d="m310.644 60.778 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6387"/><text fill="#fff" data-name="3F" font-family="Arial-BoldMT, Arial" font-size="35" font-weight="700" letter-spacing=".05em" transform="translate(355 46.779)"><tspan x="0" y="0">3F</tspan></text><text fill="#001345" data-name="8.1(土)" font-family="Arial-BoldMT, Arial" font-size="39" font-weight="700" transform="translate(228 46.779)"><tspan x="0" y="0" letter-spacing="-.05em">8.</tspan><tspan y="0" letter-spacing=".01em">1</tspan><tspan y="0" font-family="NotoSansJP-Bold, Noto Sans JP" font-size="17">(土)</tspan></text></g></g></svg>

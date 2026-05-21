@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209.086" height="209.316" viewBox="0 0 209.086 209.316">
-  <defs>
-    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#0083ce"/>
-      <stop offset="1" stop-color="#002271"/>
-    </linearGradient>
-  </defs>
-  <g id="グループ_2944" data-name="グループ 2944" transform="translate(0 -25819)">
-    <path id="パス_6692" data-name="パス 6692" d="M2617.926-913.56v-54.182h209.086L2772.83-913.56Z" transform="translate(-2617.926 26786.742)" fill="url(#linear-gradient)"/>
-    <text id="ENJOY_" data-name="ENJOY!" transform="translate(20 25859.59)" fill="#fff" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">ENJOY!</tspan></text>
-    <path id="パス_6828" data-name="パス 6828" d="M2683.285,9982.177s-.011,155.45,0,155.133,155.133-155.133,155.133-155.133Z" transform="translate(-2683.28 15891.006)" fill="#efefef"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="209.086" height="209.316"><defs><linearGradient id="a" x1="1" x2=".053" y1="-.143" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#0083ce"/><stop offset="1" stop-color="#002271"/></linearGradient></defs><g data-name="グループ 2944"><path fill="url(#a)" d="M2617.926-913.56v-54.182h209.086l-54.182 54.182Z" data-name="パス 6692" transform="translate(-2617.926 967.742)"/><text fill="#fff" data-name="ENJOY!" font-family="Arial-ItalicMT, Arial" font-size="24" font-style="italic" letter-spacing=".13em" transform="translate(20 40.59)"><tspan x="0" y="0">ENJOY!</tspan></text><path fill="#efefef" d="M.005 54.183s-.011 155.45 0 155.133S155.138 54.183 155.138 54.183Z" data-name="パス 6828"/></g></svg>

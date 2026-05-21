@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="762.131" height="62.696" viewBox="0 0 762.131 62.696">
-  <g id="グループ_2940" data-name="グループ 2940" transform="translate(-0.334 -14400.626)">
-    <g id="グループ_2055" data-name="グループ 2055" transform="translate(0 459.352)">
-      <path id="パス_6417" data-name="パス 6417" d="M3239.94-2473.913l62.112-62.11H3158.087l-62.109,62.11H3239.94" transform="translate(-3089.63 16477.801)" fill="#001345"/>
-      <path id="パス_6418" data-name="パス 6418" d="M3239.94-2473.913l62.112-62.11-120.087-.5v62.613h57.976" transform="translate(-3181.63 16477.801)" fill="#001345"/>
-    </g>
-    <g id="グループ_2054" data-name="グループ 2054" transform="translate(0 459.352)">
-      <path id="パス_6385" data-name="パス 6385" d="M3233.376-2476.744l59.279-59.279h-415.41l-59.277,59.279h415.408" transform="translate(-2533.811 16479.215)" fill="#001345" stroke="#001345" stroke-width="3"/>
-      <path id="パス_6387" data-name="パス 6387" d="M3233.376-2476.744l59.279-59.279h-137.4l-59.277,59.279h137.4" transform="translate(-2922.731 16479.215)" fill="#fff" stroke="#001345" stroke-width="3"/>
-      <text id="豊橋駅南口駅前広場" transform="translate(377 13988.473)" fill="#fff" font-size="32" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.05em"><tspan x="0" y="0">豊橋駅南口駅前広場</tspan></text>
-      <text id="_8.1_土_" data-name="8.1(土)" transform="translate(228 13988.473)" fill="#001345" font-size="39" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.05em">8.</tspan><tspan y="0" letter-spacing="0.01em">1</tspan><tspan y="0" font-size="17" font-family="NotoSansJP-Bold, Noto Sans JP">(土)</tspan></text>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="762.131" height="62.696"><g data-name="グループ 2940"><g fill="#001345" data-name="グループ 2055"><path d="M149.976 62.614 212.088.504H68.123L6.014 62.614z" data-name="パス 6417"/><path d="M57.976 62.614 120.088.504.001.004v62.613h57.976" data-name="パス 6418"/></g><g data-name="グループ 2054"><path fill="#001345" stroke="#001345" stroke-width="3" d="M699.231 61.197 758.51 1.918H343.1l-59.277 59.279h415.408" data-name="パス 6385"/><path fill="#fff" stroke="#001345" stroke-width="3" d="M310.311 61.197 369.59 1.918h-137.4l-59.277 59.279h137.4" data-name="パス 6387"/><text fill="#fff" font-family="HiraginoSans-W6, Hiragino Sans" font-size="32" letter-spacing=".05em" transform="translate(376.666 47.199)"><tspan x="0" y="0">豊橋駅南口駅前広場</tspan></text><text fill="#001345" data-name="8.1(土)" font-family="Arial-BoldMT, Arial" font-size="39" font-weight="700" transform="translate(227.666 47.199)"><tspan x="0" y="0" letter-spacing="-.05em">8.</tspan><tspan y="0" letter-spacing=".01em">1</tspan><tspan y="0" font-family="NotoSansJP-Bold, Noto Sans JP" font-size="17">(土)</tspan></text></g></g></svg>

@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
-  <g id="グループ_2013" data-name="グループ 2013" transform="translate(-964.138 -3102)">
-    <text id="_3F" data-name="3F" transform="translate(973 3107.112)" fill="#001345" font-size="20" font-family="NotoSansJP-Bold, Noto Sans JP" font-weight="700"><tspan x="0" y="23">3F</tspan></text>
-    <g id="楕円形_228" data-name="楕円形 228" transform="translate(964.138 3102)" fill="none" stroke="#001345" stroke-width="1">
-      <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
-      <circle cx="20.5" cy="20.5" r="20" fill="none"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="41"><g data-name="グループ 2013"><text fill="#001345" data-name="3F" font-family="NotoSansJP-Bold, Noto Sans JP" font-size="20" font-weight="700" transform="translate(8.862 5.112)"><tspan x="0" y="23">3F</tspan></text><g fill="none" stroke="#001345" data-name="楕円形 228"><circle cx="20.5" cy="20.5" r="20.5" stroke="none"/><circle cx="20.5" cy="20.5" r="20"/></g></g></svg>

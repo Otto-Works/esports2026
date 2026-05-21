@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195" height="40" viewBox="0 0 195 40">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="長方形_1918" data-name="長方形 1918" width="195" height="40" transform="translate(0 1718)" fill="#fff"/>
-    </clipPath>
-    <linearGradient id="linear-gradient" x1="1" y1="-0.143" x2="0.053" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#0083ce"/>
-      <stop offset="1" stop-color="#002271"/>
-    </linearGradient>
-  </defs>
-  <g id="マスクグループ_10" data-name="マスクグループ 10" transform="translate(0 -1718)" clip-path="url(#clip-path)">
-    <g id="グループ_2514" data-name="グループ 2514" transform="translate(1.856 -1050.3)">
-      <path id="パス_6689" data-name="パス 6689" d="M2662.143-913.558v-54.184h195l-54.184,54.184Z" transform="translate(-2664 3736.041)" fill="url(#linear-gradient)"/>
-      <text id="EVENT" transform="translate(18.144 2803.208)" fill="#fff" font-size="24" font-family="Arial-ItalicMT, Arial" font-style="italic" letter-spacing="0.13em"><tspan x="0" y="0">EVENT</tspan></text>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="195" height="40"><defs><linearGradient id="b" x1="1" x2=".053" y1="-.143" y2="1" gradientUnits="objectBoundingBox"><stop offset="0" stop-color="#0083ce"/><stop offset="1" stop-color="#002271"/></linearGradient><clipPath id="a"><path fill="#fff" d="M0 1718h195v40H0z" data-name="長方形 1918"/></clipPath></defs><g clip-path="url(#a)" data-name="マスクグループ 10" transform="translate(0 -1718)"><g data-name="グループ 2514"><path fill="url(#b)" d="M2662.143-913.558v-54.184h195l-54.184 54.184Z" data-name="パス 6689" transform="translate(-2662.144 2685.741)"/><text fill="#fff" font-family="Arial-ItalicMT, Arial" font-size="24" font-style="italic" letter-spacing=".13em" transform="translate(20 1752.908)"><tspan x="0" y="0">EVENT</tspan></text></g></g></svg>
