@@ -1,1 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="75"><defs><clipPath id="a"><path fill="#fff" d="M1669 2878h900v75h-900z" data-name="長方形 1913"/></clipPath></defs><g clip-path="url(#a)" data-name="マスクグループ 5" transform="translate(-1669 -2878)"><g data-name="グループ 2420"><path fill="#001345" d="m1817.31 2951.256 62.112-62.11h-143.965l-62.109 62.11z" data-name="パス 6448"/><path fill="#001345" d="m1723.31 2951.256 62.112-62.11h-143.965l-62.109 62.11z" data-name="パス 6449"/><g data-name="グループ 1989"><g data-name="グループ 1987"><path fill="#001345" stroke="#001345" stroke-width="3" d="m2063.036 2951.255 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6385"/><path fill="#fff" stroke="#001345" stroke-width="3" d="m1979.644 2951.255 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6387"/><text fill="#fff" data-name="4F" font-family="Arial-BoldMT, Arial" font-size="35" font-weight="700" letter-spacing=".05em" transform="translate(2024 2937.256)"><tspan x="0" y="0">4F</tspan></text><text fill="#001345" data-name="8.1(土)" font-family="Arial-BoldMT, Arial" font-size="39" font-weight="700" transform="translate(1897 2937.256)"><tspan x="0" y="0" letter-spacing="-.05em">8.</tspan><tspan y="0" letter-spacing=".01em">1</tspan><tspan y="0" font-family="NotoSansJP-Bold, Noto Sans JP" font-size="17">(土)</tspan></text></g><path fill="#001345" stroke="#001345" stroke-width="3" d="m2158.036 2951.255 59.279-59.279h-84.555l-59.277 59.279h84.553" data-name="パス 6385"/><path fill="#001345" stroke="#001345" stroke-width="3" d="m2494.036 2951.255 59.279-59.279h-84.555l-59.277 59.279h84.553" data-name="パス 6410"/><text fill="#fff" data-name="5F" font-family="Arial-BoldMT, Arial" font-size="35" font-weight="700" letter-spacing=".05em" transform="translate(2119 2937.256)"><tspan x="0" y="0">5F</tspan></text><text fill="#fff" data-name="5F" font-family="Arial-BoldMT, Arial" font-size="35" font-weight="700" letter-spacing=".05em" transform="translate(2455 2937.256)"><tspan x="0" y="0">5F</tspan></text><g data-name="グループ 1988"><path fill="#001345" stroke="#001345" stroke-width="3" d="m2400.721 2951.255 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6388"/><path fill="#fff" stroke="#001345" stroke-width="3" d="m2317.329 2951.255 59.279-59.279h-137.4l-59.277 59.279h137.4" data-name="パス 6389"/><text fill="#fff" data-name="4F" font-family="Arial-BoldMT, Arial" font-size="35" font-weight="700" letter-spacing=".05em" transform="translate(2362 2937.256)"><tspan x="0" y="0">4F</tspan></text><text fill="#001345" data-name="8.2(日)" font-family="Arial-BoldMT, Arial" font-size="39" font-weight="700" transform="translate(2235 2937.256)"><tspan x="0" y="0" letter-spacing="-.05em">8</tspan><tspan y="0">.</tspan><tspan y="0" letter-spacing=".05em">2</tspan><tspan y="0" font-family="NotoSansJP-Bold, Noto Sans JP" font-size="17">(日)</tspan></text></g></g><g fill="#001345" data-name="グループ 2048"><path d="M1669 2878.001h873.317v16.299H1669z" data-name="長方形 1480"/><path d="m2553.057 2894.299 16.3-16.3h-37.779l-16.3 16.3z" data-name="パス 6384"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 900 75">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        font-size: 35px;
+        letter-spacing: 0em;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        isolation: isolate;
+      }
+
+      .st1, .st8 {
+        fill: #fff;
+      }
+
+      .st1, .st3, .st4, .st5, .st6, .st7 {
+        font-weight: 700;
+      }
+
+      .st1, .st3, .st4, .st6, .st7 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .st9, .st3, .st4, .st5, .st6, .st10, .st7 {
+        fill: #001345;
+      }
+
+      .st8, .st10 {
+        stroke: #001345;
+        stroke-width: 3px;
+      }
+
+      .st3 {
+        letter-spacing: 0em;
+      }
+
+      .st3, .st4, .st6, .st7 {
+        font-size: 39px;
+      }
+
+      .st4 {
+        letter-spacing: 0em;
+      }
+
+      .st5 {
+        font-family: NotoSansJP-Bold-83pv-RKSJ-H, 'Noto Sans JP';
+        font-size: 17px;
+      }
+
+      .st6 {
+        letter-spacing: 0em;
+      }
+
+      .st11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" y="0" width="900" height="75"/>
+    </clipPath>
+  </defs>
+  <g class="st11">
+    <g>
+      <path class="st9" d="M148.3,73.3l62.1-62.1H66.5L4.3,73.3h144Z"/>
+      <path class="st9" d="M54.3,73.3L116.4,11.1H-27.5l-62.1,62.1H54.3Z"/>
+      <g>
+        <g>
+          <path class="st10" d="M394,73.3l59.3-59.3h-137.4l-59.3,59.3h137.4"/>
+          <path class="st8" d="M310.6,73.3l59.3-59.3h-137.4l-59.3,59.3h137.4"/>
+          <g class="st2">
+            <text class="st1" transform="translate(355 59.3)"><tspan x="0" y="0">5F</tspan></text>
+          </g>
+          <g class="st2">
+            <text class="st6" transform="translate(228 59.3)"><tspan x="0" y="0">8.</tspan></text>
+            <text class="st3" transform="translate(256.6 59.3)"><tspan x="0" y="0">1</tspan></text>
+            <text class="st5" transform="translate(278.7 59.3)"><tspan x="0" y="0">(土)</tspan></text>
+          </g>
+        </g>
+        <path class="st10" d="M489,73.3l59.3-59.3h-84.6l-59.3,59.3h84.6"/>
+        <path class="st10" d="M825,73.3l59.3-59.3h-84.6l-59.3,59.3h84.6"/>
+        <g class="st2">
+          <text class="st1" transform="translate(450 59.3)"><tspan x="0" y="0">4F</tspan></text>
+        </g>
+        <g class="st2">
+          <text class="st1" transform="translate(786 59.3)"><tspan x="0" y="0">4F</tspan></text>
+        </g>
+        <g>
+          <path class="st10" d="M731.7,73.3l59.3-59.3h-137.4l-59.3,59.3h137.4"/>
+          <path class="st8" d="M648.3,73.3l59.3-59.3h-137.4l-59.3,59.3h137.4"/>
+          <g class="st2">
+            <text class="st1" transform="translate(693 59.3)"><tspan x="0" y="0">5F</tspan></text>
+          </g>
+          <g class="st2">
+            <text class="st6" transform="translate(566 59.3)"><tspan x="0" y="0">8</tspan></text>
+            <text class="st7" transform="translate(585.7 59.3)"><tspan x="0" y="0">.</tspan></text>
+            <text class="st4" transform="translate(596.6 59.3)"><tspan x="0" y="0">2</tspan></text>
+            <text class="st5" transform="translate(620.2 59.3)"><tspan x="0" y="0">(日)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g>
+        <path class="st9" d="M0,0h873.3v16.3H0V0Z"/>
+        <path class="st9" d="M884.1,16.3L900.4,0h-37.8l-16.3,16.3h37.8Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
